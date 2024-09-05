@@ -1,12 +1,28 @@
+.todoInput {
+    border: none;
+    outline: none;
+}
 
-/* 
+.onpointer>* {
+    opacity: 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.onpointer:hover>* {
+    opacity: 1;
+    cursor: pointer;
+}
 
-*/
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/coleccion-ilustraciones-notas-adhesivas_53876-8291.jpg?t=st=1725508408~exp=1725512008~hmac=b0c488f8d13b2919d75a5da18c0b82a1127be3c2573fd40596fd64069917c335&w=1380");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.customOpacity-1 {
+    opacity: 0.85;
+}
+
+.customOpacity-2 {
+    opacity: 0.75;
+}
